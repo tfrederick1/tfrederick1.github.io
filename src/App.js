@@ -11,7 +11,7 @@ class App extends Component {
       <div class="base">
         <div class="nav-bar">
           <div class="link-container">
-            <a href="/">Home</a>
+            <a href="/" class="button">Home</a>
           </div>
           <div class="link-container">
             <a href="/portfolio">Portfolio</a>
