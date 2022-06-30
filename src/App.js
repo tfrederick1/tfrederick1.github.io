@@ -26,22 +26,24 @@ class App extends Component {
           </div>
         </div>
         <div class="pages">
-          <BrowserRouter>
-            <Routes>
-              <Route path="*" element={
-                <Home />
-              }/>
-              <Route path="/portfolio/featured/sea-level-rise" element={
-                <SeaLevel />
-              }/>
-              <Route path="/portfolio/featured" element={
-                <Featured />
-              }/>
-              <Route path="/portfolio" element={
-                <Portfolio />
-              }/>
-            </Routes>
-          </BrowserRouter>
+          <div class="page-container">
+            <BrowserRouter>
+              <Routes>
+                <Route path="*" element={
+                  <Home />
+                }/>
+                <Route path="/portfolio/featured/sea-level-rise" element={
+                  <SeaLevel />
+                }/>
+                <Route path="/portfolio/featured" element={
+                  <Featured />
+                }/>
+                <Route path="/portfolio" element={
+                  <Portfolio />
+                }/>
+              </Routes>
+            </BrowserRouter>
+          </div>
         </div>    
       </div>
     );

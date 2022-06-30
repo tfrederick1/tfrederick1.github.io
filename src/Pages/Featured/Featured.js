@@ -9,7 +9,7 @@ class Featured extends React.Component {
             <div class="featured">
                 <div class="text-box">
                     <div class="centered-content">
-                        <h1>Featured</h1>
+                        <h2>Featured</h2>
                     </div>
                 </div>
                 <div class="image-columns">

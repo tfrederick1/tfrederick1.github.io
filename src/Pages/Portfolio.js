@@ -9,7 +9,7 @@ class Portfolio extends React.Component {
             <div class="portfolio">
                 <div class="text-box">
                     <div class="centered-content">
-                        <h1>Portfolio</h1>
+                        <h2>Portfolio</h2>
                     </div>
                 </div>
                 <div class="image-columns">
