@@ -32,6 +32,10 @@ body {
   line-height: 50px;
   width: 110px;
 }
+
+.nav-bar a:hover {
+  color: #DFDFDF;
+}
 /* end nav-bar stuff */
 
 
@@ -90,7 +94,7 @@ body {
   justify-content: center;
   column-gap: 1%;
   row-gap: 2%;
-  margin: 10px 50px;
+  margin: 10px 50px 50px;
 }
 
 .cover-image-container {
@@ -101,7 +105,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  filter: brightness(95%);
+  filter: brightness(80%);
 }
 
 .overlay {

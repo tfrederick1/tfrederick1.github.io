@@ -1,24 +1,24 @@
 import React from 'react';
-import Numerical_Analysis_1 from '../Images/Numerical-Analysis/Numerical_Analysis_1_Ratio.png';
-import Great_Wave_1 from '../Images/Great_Wave_1.png'
-import Rocket_Blast_1 from '../Images/Rocket-Blast/Rocket_Blast_1_Ratio.png'
+import Numerical_Analysis_1 from '../../Images/Numerical-Analysis/Numerical_Analysis_1_Ratio.png';
+import Great_Wave_1 from '../../Images/Great_Wave_1.png'
+import Rocket_Blast_1 from '../../Images/Rocket-Blast/Rocket_Blast_1_Ratio.png'
 
-class Portfolio extends React.Component {
+class Featured extends React.Component {
     render() {
         return (
-            <div class="portfolio">
+            <div class="featured">
                 <div class="text-box">
                     <div class="centered-content">
-                        <h1>Portfolio</h1>
+                        <h1>Featured</h1>
                     </div>
                 </div>
                 <div class="image-columns">
                     <div class="cover-image-container">
-                        <a href="/portfolio/featured">
+                        <a href="/portfolio/featured/sea-level-rise">
                             <img src={Numerical_Analysis_1} class="cover-image" alt="Featured"></img>
                             <div class="overlay">
                                 <div class="overlay-text">
-                                    Featured
+                                    Sea Level Rise Regression Analysis
                                 </div>
                             </div>
                         </a>
@@ -27,7 +27,7 @@ class Portfolio extends React.Component {
                         <img src={Numerical_Analysis_1} class="cover-image" alt="Websites"></img>
                         <div class="overlay">
                             <div class="overlay-text">
-                                Websites
+                                5 Letter Word Game
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
                         <img src={Numerical_Analysis_1} class="cover-image" alt="School Projects"></img>
                         <div class="overlay">
                             <div class="overlay-text">
-                                School Projects
+                                Covid-19 and Flight Trends
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ class Portfolio extends React.Component {
                         <img src={Rocket_Blast_1} class="cover-image" alt="Games"></img>
                         <div class="overlay">
                             <div class="overlay-text">
-                                Games
+                                Rocket Blast
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ class Portfolio extends React.Component {
                         <img src={Numerical_Analysis_1} class="cover-image" alt="Animations/Models"></img>
                         <div class="overlay">
                             <div class="overlay-text">
-                                Animations/Models
+                                Space Battle Animation
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ class Portfolio extends React.Component {
                         <img src={Great_Wave_1} class="cover-image" alt="Art"></img>
                         <div class="overlay">
                             <div class="overlay-text">
-                                Art
+                                Maze Madness
                             </div>
                         </div>
                     </div>
@@ -69,4 +69,4 @@ class Portfolio extends React.Component {
     }
 }
 
-export default Portfolio;
+export default Featured;

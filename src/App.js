@@ -4,6 +4,8 @@ import './App.css';
 
 import Home from './Pages/Home.js';
 import Portfolio from './Pages/Portfolio.js';
+import Featured from './Pages/Featured/Featured';
+import SeaLevel from './Pages/Featured/SeaLevel';
 
 class App extends Component {
   render () {
@@ -28,6 +30,12 @@ class App extends Component {
             <Routes>
               <Route path="*" element={
                 <Home />
+              }/>
+              <Route path="/portfolio/featured/sea-level-rise" element={
+                <SeaLevel />
+              }/>
+              <Route path="/portfolio/featured" element={
+                <Featured />
               }/>
               <Route path="/portfolio" element={
                 <Portfolio />
